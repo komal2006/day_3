@@ -8,16 +8,27 @@
 
 import Foundation
 
-var a:Int? = nil
+var a:Int! = nil
 var b = 100
+//a = 10
+print(a)
 print(a)
 print(b)
+
+let d = a + b
 if a == nil
 {
-    print(a)
+    print("a is nil")
 }
 else
 {
-    let c = (a ?? 0) + b
+    //let c = (a ?? 0) + b
+    let c = a! + b
 print(c)
+}
+
+if let x = a
+{
+    let c = x + b
+    print(c)
 }
