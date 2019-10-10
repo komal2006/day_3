@@ -8,8 +8,16 @@
 
 import Foundation
 
-var a:Int?
+var a:Int? = nil
+var b = 100
 print(a)
-
-
-
+print(b)
+if a == nil
+{
+    print(a)
+}
+else
+{
+    let c = (a ?? 0) + b
+print(c)
+}
