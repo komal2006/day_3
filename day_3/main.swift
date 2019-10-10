@@ -8,7 +8,8 @@
 
 import Foundation
 
-
+var a:Int?
+print(a)
 
 
 
