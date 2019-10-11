@@ -11,4 +11,15 @@ struct Student
 {
     var studentID : Int
     var studentName: String
+    
+    /*mutating func setValu()
+    {
+        self.studentID = 1000
+        self.studentName = "Komal"
+    }*/
+    
+    func printData()
+    {
+        print(studentID,studentName)
+    }
 }

@@ -10,5 +10,23 @@ import Foundation
 class Faculty
 {
     var facultyID : Int!
-    var facultyName: String?
+    var firstName: String!
+    var lastName: String!
+    var basicSalary: Int!
+    var bonus: Int!
+    var totalSalary: Int  = 0
+    
+   func total_Salary()
+   {
+    return(totalSalary = basicSalary + bonus)
+   
+    }
+
+
+    func printData()
+    {
+        print("FacultyID : \(facultyID!) \n First_Name : \(firstName!) \n Last_Name : \(lastName!) \n  Basic_Salary : \(basicSalary!) \n Bonus : \(bonus!) \n Total_Salary : \(totalSalary)")
+      
+    }
+
 }
