@@ -12,9 +12,9 @@ class Faculty
     var facultyID : Int!
     var firstName: String!
     var lastName: String!
-    var basicSalary: Int!
-    var bonus: Int!
-    var totalSalary: Int  = 0
+    var basicSalary: Float!
+    var bonus: Float!
+    var totalSalary: Float  = 0
     
    func total_Salary()
    {
